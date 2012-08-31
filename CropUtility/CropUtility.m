@@ -175,9 +175,14 @@
 }
 
 - (CGRect) cropRectangle {
-    return CGRectMake(self.buttonUpperLeft.center.x, self.buttonUpperLeft.center.y,
-                      self.buttonUpperRight.center.x-self.buttonUpperLeft.center.x,
-                      self.buttonLowerLeft.center.y-self.buttonUpperLeft.center.y);
+    
+    CGFloat left = MIN(self.buttonUpperLeft.center.x, self.buttonLowerRight.center.x);
+    CGFloat right = MAX(self.buttonUpperLeft.center.x, self.buttonLowerRight.center.x);
+    
+    CGFloat top = MIN(self.buttonUpperLeft.center.y, self.buttonLowerRight.center.y);
+    CGFloat bottom = MAX(self.buttonUpperLeft.center.y, self.buttonLowerRight.center.y);
+    
+    return CGRectMake(left, top, right - left, bottom - top);
 }
 
 @end
