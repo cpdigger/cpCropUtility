@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CropUtility' target in the 'CropUtility' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

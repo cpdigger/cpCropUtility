@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E3E6DB1315EFA18600AF57FF /* Merge */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3E6DB1415EFA18600AF57FF /* Build configuration list for PBXAggregateTarget "Merge" */;
+			buildPhases = (
+				E3E6DB1B15EFA20800AF57FF /* ShellScript */,
+				E3E6DB1C15EFA40C00AF57FF /* CopyFiles */,
+				E39EE08A15F0B0E500EF88FE /* CopyFiles */,
+				E3E6DB1F15EFA49A00AF57FF /* ShellScript */,
+			);
+			dependencies = (
+				E3E6DB4F15F0860900AF57FF /* PBXTargetDependency */,
+				E3E6DB1815EFA18F00AF57FF /* PBXTargetDependency */,
+			);
+			name = Merge;
+			productName = Merge;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E39EE08615F0AF5600EF88FE /* CropUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E36A020F15EF52F600168A74 /* CropUtility.m */; };
+		E39EE08715F0AF5F00EF88FE /* CropUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E36A020F15EF52F600168A74 /* CropUtility.m */; };
+		E39EE08B15F0B11A00EF88FE /* bluebullet.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E39EE08915F0B0B400EF88FE /* bluebullet.png */; };
+		E3E6DAF815EFA07300AF57FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36A020815EF52F600168A74 /* Foundation.framework */; };
+		E3E6DB1D15EFA42400AF57FF /* CropUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E36A020D15EF52F600168A74 /* CropUtility.h */; };
+		E3E6DB4915F085D300AF57FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36A020815EF52F600168A74 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E6DB1715EFA18F00AF57FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36A01FC15EF52F600168A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E6DAF615EFA07300AF57FF;
+			remoteInfo = CropUtility;
+		};
+		E3E6DB4E15F0860900AF57FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36A01FC15EF52F600168A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E6DB4215F085D300AF57FF;
+			remoteInfo = CropUtilitySim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E39EE08A15F0B0E500EF88FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${TARGET_BUILD_DIR}/../CropUtility.framework/Resource.bundle";
+			dstSubfolderSpec = 0;
+			files = (
+				E39EE08B15F0B11A00EF88FE /* bluebullet.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E6DB1C15EFA40C00AF57FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${TARGET_BUILD_DIR}/../CropUtility.framework/Headers";
+			dstSubfolderSpec = 0;
+			files = (
+				E3E6DB1D15EFA42400AF57FF /* CropUtility.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E36A020815EF52F600168A74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E36A020C15EF52F600168A74 /* CropUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CropUtility-Prefix.pch"; sourceTree = "<group>"; };
+		E36A020D15EF52F600168A74 /* CropUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CropUtility.h; sourceTree = "<group>"; };
+		E36A020F15EF52F600168A74 /* CropUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropUtility.m; sourceTree = "<group>"; };
+		E36A021C15EF53C000168A74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E39EE08915F0B0B400EF88FE /* bluebullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebullet.png; path = CropUtility/bluebullet.png; sourceTree = "<group>"; };
+		E3E6DAF715EFA07300AF57FF /* libCropUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCropUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E6DB4D15F085D300AF57FF /* libCropUtility copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libCropUtility copy.a"; path = libCropUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E6DBB015F0AB4600AF57FF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E6DAF415EFA07300AF57FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E6DAF815EFA07300AF57FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E6DB4515F085D300AF57FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E6DB4915F085D300AF57FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E36A01FA15EF52F600168A74 = {
+			isa = PBXGroup;
+			children = (
+				E39EE08815F0B07F00EF88FE /* Resource.bundle */,
+				E36A020A15EF52F600168A74 /* CropUtility */,
+				E36A020715EF52F600168A74 /* Frameworks */,
+				E36A020615EF52F600168A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E36A020615EF52F600168A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E6DAF715EFA07300AF57FF /* libCropUtility.a */,
+				E3E6DB4D15F085D300AF57FF /* libCropUtility copy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E36A020715EF52F600168A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36A021C15EF53C000168A74 /* QuartzCore.framework */,
+				E36A020815EF52F600168A74 /* Foundation.framework */,
+				E3E6DBB015F0AB4600AF57FF /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E36A020A15EF52F600168A74 /* CropUtility */ = {
+			isa = PBXGroup;
+			children = (
+				E36A020D15EF52F600168A74 /* CropUtility.h */,
+				E36A020F15EF52F600168A74 /* CropUtility.m */,
+				E36A020B15EF52F600168A74 /* Supporting Files */,
+			);
+			path = CropUtility;
+			sourceTree = "<group>";
+		};
+		E36A020B15EF52F600168A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E36A020C15EF52F600168A74 /* CropUtility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E39EE08815F0B07F00EF88FE /* Resource.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				E39EE08915F0B0B400EF88FE /* bluebullet.png */,
+			);
+			name = Resource.bundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E6DAF615EFA07300AF57FF /* CropUtilityiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E6DB0015EFA07300AF57FF /* Build configuration list for PBXNativeTarget "CropUtilityiOS" */;
+			buildPhases = (
+				E3E6DAF315EFA07300AF57FF /* Sources */,
+				E3E6DAF415EFA07300AF57FF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropUtilityiOS;
+			productName = CropUtility;
+			productReference = E3E6DAF715EFA07300AF57FF /* libCropUtility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3E6DB4215F085D300AF57FF /* CropUtilitySim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E6DB4A15F085D300AF57FF /* Build configuration list for PBXNativeTarget "CropUtilitySim" */;
+			buildPhases = (
+				E3E6DB4315F085D300AF57FF /* Sources */,
+				E3E6DB4515F085D300AF57FF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropUtilitySim;
+			productName = CropUtility;
+			productReference = E3E6DB4D15F085D300AF57FF /* libCropUtility copy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E36A01FC15EF52F600168A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "CP CORPORATE PLANNING";
+			};
+			buildConfigurationList = E36A01FF15EF52F600168A74 /* Build configuration list for PBXProject "CropUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E36A01FA15EF52F600168A74;
+			productRefGroup = E36A020615EF52F600168A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E6DAF615EFA07300AF57FF /* CropUtilityiOS */,
+				E3E6DB4215F085D300AF57FF /* CropUtilitySim */,
+				E3E6DB1315EFA18600AF57FF /* Merge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3E6DB1B15EFA20800AF57FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# make a new output folder\nmkdir -p ${TARGET_BUILD_DIR}/../CropUtility.framework\n\n# combine lib files for various platforms into one\nlipo -create \"${TARGET_BUILD_DIR}/../release-iphoneos/libCropUtility.a\" \"${TARGET_BUILD_DIR}/../release-iphonesimulator/libCropUtility.a\" -output \"${TARGET_BUILD_DIR}/../CropUtility.framework/CropUtility\"";
+		};
+		E3E6DB1F15EFA49A00AF57FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto -c -k --keepParent \"${TARGET_BUILD_DIR}/../CropUtility.framework\" \"${TARGET_BUILD_DIR}/../CropUtility.zip\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E6DAF315EFA07300AF57FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39EE08615F0AF5600EF88FE /* CropUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E6DB4315F085D300AF57FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39EE08715F0AF5F00EF88FE /* CropUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3E6DB1815EFA18F00AF57FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E6DAF615EFA07300AF57FF /* CropUtilityiOS */;
+			targetProxy = E3E6DB1715EFA18F00AF57FF /* PBXContainerItemProxy */;
+		};
+		E3E6DB4F15F0860900AF57FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E6DB4215F085D300AF57FF /* CropUtilitySim */;
+			targetProxy = E3E6DB4E15F0860900AF57FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E36A021115EF52F600168A74 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = debug;
+		};
+		E36A021215EF52F600168A74 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = release;
+		};
+		E3E6DB0115EFA07300AF57FF /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CropUtility.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CropUtility/CropUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CropUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = debug;
+		};
+		E3E6DB0215EFA07300AF57FF /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/CropUtility.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CropUtility/CropUtility-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CropUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = release;
+		};
+		E3E6DB1515EFA18600AF57FF /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = debug;
+		};
+		E3E6DB1615EFA18600AF57FF /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = release;
+		};
+		E3E6DB4B15F085D300AF57FF /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CropUtility.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CropUtility/CropUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CropUtility;
+				SDKROOT = iphonesimulator;
+				SKIP_INSTALL = YES;
+			};
+			name = debug;
+		};
+		E3E6DB4C15F085D300AF57FF /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/CropUtility.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CropUtility/CropUtility-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = CropUtility;
+				SDKROOT = iphonesimulator;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E36A01FF15EF52F600168A74 /* Build configuration list for PBXProject "CropUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36A021115EF52F600168A74 /* debug */,
+				E36A021215EF52F600168A74 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = release;
+		};
+		E3E6DB0015EFA07300AF57FF /* Build configuration list for PBXNativeTarget "CropUtilityiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E6DB0115EFA07300AF57FF /* debug */,
+				E3E6DB0215EFA07300AF57FF /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = release;
+		};
+		E3E6DB1415EFA18600AF57FF /* Build configuration list for PBXAggregateTarget "Merge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E6DB1515EFA18600AF57FF /* debug */,
+				E3E6DB1615EFA18600AF57FF /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = release;
+		};
+		E3E6DB4A15F085D300AF57FF /* Build configuration list for PBXNativeTarget "CropUtilitySim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E6DB4B15F085D300AF57FF /* debug */,
+				E3E6DB4C15F085D300AF57FF /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E36A01FC15EF52F600168A74 /* Project object */;
+}
