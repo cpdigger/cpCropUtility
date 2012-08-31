@@ -3,7 +3,8 @@ cpCropUtility
 
 a reusable component for cropping an image under iOS
 
-![Screenshot of cropping in example](ScreenShoot.jpg)
+![Screenshot](https://raw.github.com/cpdigger/cpCropUtility/master/ScreenShoot.png)
+![Screenshot](http://raw.github.com/cpdigger/cpCropUtility/master/ScreenShoot.png)
 
 
 1) After building you'll find a "CropUtility.zip" under the Products path. This file you need to unpack to a "CropUtility.framework" folder into your project.
