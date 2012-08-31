@@ -27,15 +27,24 @@ That's all ;)
 
 `
 if(![tool isAttached])  
-{  
+
+{
+  
     [tool attachToView:self.imageView withRect:CGRectMake(100,100,50,100)];  
-}  
-else  
-{  
-    CGRect rect = [tool cropRectangle];  
-    NSLog(@"x=%f ; y=%f; width=%f; height=%f", rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);  
-    [tool detachFromView];  
-}  
+
+}
+
+else
+
+{
+
+    CGRect rect = [tool cropRectangle];
+
+    NSLog(@"x=%f ; y=%f; width=%f; height=%f", rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
+
+    [tool detachFromView];
+
+}
 `
 
 
