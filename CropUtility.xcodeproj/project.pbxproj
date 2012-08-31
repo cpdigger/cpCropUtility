@@ -80,6 +80,7 @@
 		E36A020D15EF52F600168A74 /* CropUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CropUtility.h; sourceTree = "<group>"; };
 		E36A020F15EF52F600168A74 /* CropUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropUtility.m; sourceTree = "<group>"; };
 		E36A021C15EF53C000168A74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E386FF8315F0D8D30065139D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		E39EE08915F0B0B400EF88FE /* bluebullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebullet.png; path = CropUtility/bluebullet.png; sourceTree = "<group>"; };
 		E3E6DAF715EFA07300AF57FF /* libCropUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCropUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E6DB4D15F085D300AF57FF /* libCropUtility copy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libCropUtility copy.a"; path = libCropUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +110,7 @@
 		E36A01FA15EF52F600168A74 = {
 			isa = PBXGroup;
 			children = (
-				E39EE08815F0B07F00EF88FE /* Resource.bundle */,
+				E386FF8315F0D8D30065139D /* README.md */,
 				E36A020A15EF52F600168A74 /* CropUtility */,
 				E36A020715EF52F600168A74 /* Frameworks */,
 				E36A020615EF52F600168A74 /* Products */,
@@ -148,6 +149,7 @@
 		E36A020B15EF52F600168A74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E39EE08815F0B07F00EF88FE /* Resource.bundle */,
 				E36A020C15EF52F600168A74 /* CropUtility-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -159,6 +161,7 @@
 				E39EE08915F0B0B400EF88FE /* bluebullet.png */,
 			);
 			name = Resource.bundle;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
