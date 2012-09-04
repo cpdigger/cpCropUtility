@@ -1,0 +1,45 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoTouchCropTest/MonoTouchCropTestViewController.cs">
+    <Files>
+      <File FileName="MonoTouchCropTest/AppDelegate.cs" Line="30" Column="4" />
+      <File FileName="MonoTouchCropTest/Main.cs" Line="17" Column="1" />
+      <File FileName="MonoTouchCropTest/MonoTouchCropTestViewController.cs" Line="31" Column="26" />
+      <File FileName="MonoTouchCropTest/MonoTouchCropTestViewController.designer.cs" Line="15" Column="40" />
+      <File FileName="MonoCropUtility/Cropper.cs" Line="74" Column="3" />
+      <File FileName="MonoCropUtility/CropUtility.linkwith.cs" Line="4" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MonoCropUtility" expanded="True">
+            <Node name="CropUtil.a" expanded="True" />
+          </Node>
+          <Node name="MonoTouchCropTest" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Resource.bundle" expanded="True" />
+            <Node name="MonoTouchCropTestViewController.cs" expanded="True" />
+            <Node name="MonoTouchCropTestViewController.xib" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>other</Value>
+        </State>
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../cpdigger/CP.Digger.Core/Genetic/SelfOrganizingMap.cs" line="95" offsetX="1721" offsetY="1440" expression="matrix" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

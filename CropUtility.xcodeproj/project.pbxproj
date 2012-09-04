@@ -239,7 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# make a new output folder\nmkdir -p ${TARGET_BUILD_DIR}/../CropUtility.framework\n\n# combine lib files for various platforms into one\nlipo -create \"${TARGET_BUILD_DIR}/../release-iphoneos/libCropUtility.a\" \"${TARGET_BUILD_DIR}/../release-iphonesimulator/libCropUtility.a\" -output \"${TARGET_BUILD_DIR}/../CropUtility.framework/CropUtility\"";
+			shellScript = "# make a new output folder\nmkdir -p ${TARGET_BUILD_DIR}/../CropUtility.framework\n\n# combine lib files for various platforms into one\nlipo -create \"${TARGET_BUILD_DIR}/../release-iphoneos/libCropUtility.a\" \"${TARGET_BUILD_DIR}/../release-iphonesimulator/libCropUtility.a\" -output \"${TARGET_BUILD_DIR}/../CropUtility.framework/CropUtility\"\n\ncp \"${TARGET_BUILD_DIR}/../CropUtility.framework/CropUtility\" \"${TARGET_BUILD_DIR}/../CropUtility.framework/CropUtility.a\"";
 		};
 		E3E6DB1F15EFA49A00AF57FF /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
